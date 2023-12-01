@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Activitat 2</title>
 </head>
 <body>
-    
+    <h3>11-Interactivos: Actividad 2</h3>
+    <br>
+    <br>
+    <h1>Buscador de Smartphones</h1>
+
+    <form action="/resultados" method="get">
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" list="marcas" placeholder="Escribe la marca" required>
+        <datalist id="marcas">
+            <option value="Apple">
+            <option value="Samsung">
+            <option value="Huawei">
+        </datalist>
+
+        <label for="precio">Rango de Precio:</label>
+        <select id="precio" name="precio">
+            <option value="0-200">0€ - 200€</option>
+            <option value="201-500">201€ - 500€</option>
+            <option value="501-1000">501€ - 1000€</option>
+            <option value="1001-mas">Más de 1000€</option>
+        </select>
+
+        <button type="submit">Buscar</button>
+    </form>
+
 </body>
 </html>

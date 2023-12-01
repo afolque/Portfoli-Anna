@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Activitat 4</title>
 </head>
 <body>
-    
+    <h3>07-Formularios: Actividad 4</h3>
+    <br>
+    <br>
+    <h1>Buscar Cámaras de Fotos</h1>
+
+    <form action="/buscar-camaras" method="get">
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca">
+
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo">
+
+        <label for="resolucion">Resolución (en megapíxeles):</label>
+        <input type="number" id="resolucion" name="resolucion" min="1">
+
+        <label for="tipoSensor">Tipo de Sensor:</label>
+        <select id="tipoSensor" name="tipoSensor">
+            <option value="apsc">APS-C</option>
+            <option value="fullFrame">Full Frame</option>
+            <option value="microCuatroTercios">Micro Cuatro Tercios</option>
+        </select>
+
+        <label for="precio">Precio máximo:</label>
+        <input type="number" id="precio" name="precio" min="0">
+
+        <button type="submit">Buscar</button>
+    </form>
 </body>
 </html>
