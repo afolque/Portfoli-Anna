@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #comments-section {
+          max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddddddc4;
+        }   
+        .comment{
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ddddddc4;
+        }
+
+
+        .comment strong{
+            color: grey;
+        }
+
+        .comment{
+            margin: 5px 0;
+        }
+
+        #comment-form textarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #comment-form input[type="submit"]{
+            padding: 10px;
+            cursor: pointer;
+            background-color: grey;
+            color: #f9f9f9;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h3>06-BEM: Activitat 2</h3>
+    <br>
+    <br>
+
+    <div id="comments-section">
+        <div class="comment">
+            <strong>Maria:</strong>
+            <p>M'ha agradat molt</p>
+        </div>
+
+        <div class="comment">
+            <strong>Pol:</strong>
+            <p>Gràcies per compartir aquesta informació</p>
+        </div>
+
+        <div id="comment-form">
+            <h2>Afegeix un comentari</h2>
+            <form>
+                <textarea placeholder="Escriu aquí el teu comentari" rows="10"></textarea>
+                <input type="submit" value="Publicar comentari">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
