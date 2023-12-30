@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        .subrallat{
+            background-color: rgba(255,255,0,0.3);
+            text-decoration: underline;
+            padding: 2px;
+            position: relative;
+        }
+
+        .subrallat::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 50px;
+            background-color: rgba(255,255,0,0.3); 
+            top: 0;
+            left: -50px;;
+        }
+
+        .subrallat::after{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 50px;
+            background-color: rgba(255,255,0,0.3); 
+            top: 0;
+            right: -50px;
+        }
+    </style>
+</head>
+<body>
+    <h3>11-Display: Activitat 2</h3>
+    <br>
+    <br>
+    <p>Et molestie ac, feugiat sed lectus vestibulum mattis ullamcorper velist sed ullamcorper morbi tincidunt ornare. Consequat interdum varius sit amet, mattis vulputate enim nulla <strong class="subrallat">aliquet</strong> porttitor lacus, luctus accsmsan tortor! Nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum, faucibus vitae? Malesuada fames ac turpis egestas integer eget aliquet nibh praesent.
+</body>
+</html>
