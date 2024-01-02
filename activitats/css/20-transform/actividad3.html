@@ -7,21 +7,21 @@
 
     <style>
         body {
-            font-family: sans-serif;
+            font-family:  sans-serif;
             margin: 20px;
+            text-align: center;
+        }
+
+        .contenedor{
             display: flex;
-            align-items: center;
-            justify-content: space-around;
-            height: 100vh;
         }
 
         .cercle {
             width: 100px;
             height: 100px;
             border-radius: 50%;
-            display: inline-block;
-            transition: transform 0.3s ease, background-color 0.3s ease;
-            cursor: pointer;
+            transition: transform 0.5s ease-in-out;
+           
         }
 
         .roig {
@@ -32,17 +32,15 @@
             background-color: blue;
         }
 
-        .blau:hover {
-            transform: translateX(-20px); 
-        }
     </style>
 </head>
 <body>
     <h3>20-Transform: Activitat 3</h3>
     <br>
     <br>
-
-    <div class="cercle roig"></div>
-    <div class="cercle blau"></div>
+    <div class="contenedor">
+        <div class="cercle roig"></div>
+     <div class="cercle blau" onmousemove="mixColors(event)"></div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 5</title>
+
+    <style>
+        .loading-container {
+          display: flex;
+          align-items: center;
+        }
+    
+        .loading-cercle {
+          width: 20px;
+          height: 20px;
+          background-color: #3498db;
+          border-radius: 50%;
+          margin: 0 5px;
+          animation: girar 1s linear infinite;
+        }
+    
+        .loading-cercle:nth-child(2) {
+          animation-delay: 0.2s;
+        }
+    
+        .loading-cercle:nth-child(3) {
+          animation-delay: 0.4s;
+        }
+    
+        @keyframes girar {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.5);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+      </style>
+</head>
+<body>
+    <h3>22-Animation: Activitat 5</h3>
+    <br>
+    <br>
+    <div class="loading-container">
+        <div class="loading-cercle"></div>
+        <div class="loading-cercle"></div>
+        <div class="loading-cercle"></div>
+      </div>
+</body>
+</html>

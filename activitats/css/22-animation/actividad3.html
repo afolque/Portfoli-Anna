@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 3</title>
+
+    <style>
+        #cartellCookies{
+            position: fixed;
+            bottom: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #5a5252;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            opacity: 0;
+            animation: mostrarCartel 1s 5s forwards;
+        }
+
+        @keyframes mostrarCartell {
+      0% {
+        opacity: 0;
+        bottom: -100px;
+      }
+      100% {
+        opacity: 1;
+        bottom: 20px;
+      }
+    }
+
+    #cartellCookies:hover {
+      cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <h3>22-Animation: Activitat 3</h3>
+    <br>
+    <br>
+    <div id="cartellCookies">
+        Aquest lloc utilitza cookies!!!
+    </div>
+</body>
+</html>

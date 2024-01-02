@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 4</title>
+    <style>
+        #rellotge {
+          width: 200px;
+          height: 200px;
+          background-color: rgb(224, 178, 178);
+          border-radius: 50%;
+          position: relative;
+        }
+    
+        .agulla {
+          position: absolute;
+          width: 2px;
+          height: 50px;
+          background-color: black;
+          top: 50%;
+          left: 50%;
+          transform-origin: 50% 100%;
+          transform: translate(-50%, -100%) rotate(0deg);
+          animation: girar 60s linear infinite;
+        }
+    
+        .agulla-minuts {
+          height: 40px;
+          background-color: #4b4b4b;
+          animation: girar 3600s linear infinite;
+        }
+    
+        .agulla-segons {
+          height: 30px;
+          background-color: red;
+          animation: girar 60s linear infinite;
+        }
+    
+        @keyframes girar {
+          from {
+            transform: translate(-50%, -100%) rotate(0deg);
+          }
+          to {
+            transform: translate(-50%, -100%) rotate(360deg);
+          }
+        }
+      </style>
+</head>
+<body>
+    <h3>22-Animation: Activitat 4</h3>
+    <br>
+    <br>
+    <div id="rellotge">
+        <div class="agulla"></div>
+        <div class="agulla agulla-minuts"></div>
+        <div class="agulla agulla-segons"></div>
+    </div>
+</body>
+</html>
