@@ -8,7 +8,6 @@
     <style>
         div{
             background-color: rgb(124, 123, 123);
-            margin-block: 6rem;
         }
 
         header{
@@ -18,16 +17,39 @@
 
         h1{
             color: white;
+            margin-top: 5rem;
         
         }
 
-        button{
+        .button1{
+            margin-inline: 5rem;
+            margin-top: 2rem;
+            font-family: 'Courier New';
+            border-radius: 1000px;
+            padding: 2%;
+            background-color: rgb(216, 77, 77);
+            margin-bottom: 5rem;
+            color: white;
+        }
+
+        p{
+            color: white;
+            font-family: 'Franklin Gothic Medium';
+        }
+
+        .segonapart{
+            background-color: rgb(216, 77, 77);
+        }
+
+        .button2{
             margin-inline: 5rem;
             margin-top: 2rem;
             font-family: 'Courier New';
             border-radius: 1000px;
             padding: 2%;
             background-color: white;
+            margin-bottom: 5rem;
+            color: black;
         }
     </style>
 </head>
@@ -40,13 +62,13 @@
         <div>
             <h1>YOUR FAVOURITE SOURCE OF FREE <br> BOOTSTRAP THEMES</h1>
             <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! <br> Just download your template ans start going, no strings attached!</p>
-            <button>FIND OUT MORE</button>
+            <button class="button1">FIND OUT MORE</button>
         </div>
     </header>
-    <header>
+    <header class="segonapart">
         <h2>We've got what you need!</h2>
         <p>Start Bootstrap has everything you need to get your new website up and running in no <br> time! All of the templates and themes on Start Bootstrap are open source, free to <br> download, and easy to use. No strings attached!</p>
-        <button>GET STARTED!</button>
+        <button class="button2">GET STARTED!</button>
     </header>
 </body>
 </html>
