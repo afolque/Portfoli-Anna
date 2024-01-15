@@ -6,41 +6,34 @@
     <title>Activitat 3</title>
 
     <style>
-        #cartellCookies{
-            position: fixed;
-            bottom: -100px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: #5a5252;
-            color: white;
-            padding: 20px;
-            border-radius: 8px;
-            opacity: 0;
-            animation-delay: 3s;
-        }
+      
 
-        @keyframes mostrarCartell {
-      0% {
-        opacity: 0;
-        bottom: -100px;
+       p {
+        animation-duration: 5s;
+        animation-name: slidein;
       }
-      100% {
-        opacity: 1;
-        bottom: 20px;
-      }
-    }
 
-    #cartellCookies:hover {
-      cursor: pointer;
-    }
+      @keyframes slidein {
+        from {
+        margin-left: 100%;
+        width: 300%;
+      }
+
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+      }
+
     </style>
 </head>
 <body>
     <h3>22-Animation: Activitat 3</h3>
     <br>
     <br>
-    <div id="cartellCookies">
-        Aquest lloc utilitza cookies!!!
-    </div>
+    <p>
+       Aquest lloc utilitza cookies!!!
+    </p>
+    
 </body>
 </html>
