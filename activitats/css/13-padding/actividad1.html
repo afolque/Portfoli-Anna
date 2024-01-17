@@ -9,16 +9,51 @@
         body{
             background-color: rgb(245, 234, 200);
         }
+
         .text{
-           
+            padding-left: 10rem;
         }
-
-        .imatge{
-
+        .unio{
+            display: grid;
+            grid-template-columns: 50% 50%;
         }
 
         .fonsblau{
             background-color: rgb(137, 187, 211);
+            text-align: center;
+        }
+        .button1{
+            margin-inline: 5rem;
+            margin-top: 2rem;
+            font-family: 'Courier New';
+            background-color: rgb(10, 158, 146);
+            margin-bottom: 5rem;
+            color: white;
+            font-weight: bolder;
+            border-color: rgb(10, 158, 146);
+        }
+
+        .button2{
+            margin-inline: 5rem;
+            margin-top: 2rem;
+            font-family: 'Courier New';
+            background-color: rgb(245, 234, 200);
+            margin-bottom: 5rem;
+            color:rgb(10, 158, 146);
+            font-weight: bolder;
+            border-color: rgb(245, 234, 200);
+        }
+
+        h1{
+            font-family: 'Lucida Sans';
+            text-align: left;
+            font-weight: lighter;
+        }
+
+        h2{
+            font-family: 'Lucida Sans Regular';
+            text-align: left;
+            font-weight: lighter;
         }
     </style>
 </head>
@@ -26,17 +61,18 @@
     <h3>12-Padding: Activitat 2</h3>
     <br>
     <br>
+<div class="unio">
     <div class="text">
         <h1>Ponte manos a la <br> obra y aumenta <br> las ventas</h1>
         <h2>Consigue que tus clientes interactúen <br> y haz crecer tu negocio con la <br> plataforma de marketing avanzada <br> pero fácil de usar de Mailchimp</h2>
-        <button>Suscribete</button>
-        <button>Comparar planes</button>
+        <button class="button1">Suscribete</button>
+        <button class="button2">Comparar planes</button>
     </div>
 
     <div class="imatge">
         <img src="../../imatges/131.jpg" alt="">
     </div>
-
+</div>
     <div class="fonsblau">
         <p>Mailchimp ha sido adquirida por Intuit. Nuestro cofundador y CEO compartió la noticia con nuestros clientes. Léela <br> <a class="link"><u>aquí</u></a> en inglés.</p>
     </div>
