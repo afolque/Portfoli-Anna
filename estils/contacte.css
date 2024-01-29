@@ -16,6 +16,9 @@ header{
     padding: 10px;
     text-align: center;
 }
+
+
+
 nav ul{
     font-family:'Times New Roman', Times, serif;
     list-style: none;
@@ -38,6 +41,7 @@ nav a{
 
 main{
     flex: 1;
+    text-align: center;
 }
 
 footer{
@@ -55,23 +59,29 @@ footer{
     text-decoration: none;
 }
 
-a{
-    margin-left: 20px;
+/*CSS contacte.html*/
+.form-contingut{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-h3{
-    margin-left: 20px;
+.form-grup{
+    margin-bottom: 20px;
 }
 
-h1{
-    margin-left: 20px;
-}
+form {
 
-table, th, td {
-  border:1px solid black;
-}
+    margin: 0 auto;
+    width: 400px;
 
-.div2{
-display: grid;
-grid-template-columns: 60% 40%;
-}
+    padding: 1em;
+    border: 1px solid #030303;
+    border-radius: 1em;
+  }
+
+  .div2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    }
