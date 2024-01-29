@@ -70,3 +70,8 @@ footer{
 .form-grup{
     margin-bottom: 20px;
 }
+
+.div2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    }
