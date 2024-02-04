@@ -6,15 +6,41 @@
     <title>Activitat 2</title>
 
     <style>
-        .terra {
+        .unio{
+            width: 20rem;
+            margin-left: 30%;
+            perspective: 200px;
+            perspective-origin: center;
+        }
+
+        .terra{
+            position: relative;
+            top:-3.3rem;
+            left:-2.8rem;
+            transform: rotate3d(1, 0, 0, 65deg);
+        }
+
+        .terra img{
+            width: 40rem;
+            height: 10rem;
         }
 
         .fons{
-
+            width: 100rem;
         }
 
         .ovella{
-            transform: translateZ(-10rem); 
+            position: relative;
+            top: -12.8rem;
+            left: 12rem;
+        }
+
+        .ombra{
+            position: relative;
+            top:-24rem;
+            left:3rem;
+            transform: translateZ(-10rem);
+            filter: brightness(10%);
         }
     </style>
 </head>
@@ -22,10 +48,11 @@
     <h3>23-3d: Activitat 1</h3>
     <br>
     <br>
-    <div>
-        <div class="fons"> <img src="../../imatges/wall.jpg" width="200" height="200"></div>
-        <div class="terra"> <img src="../../imatges/floor.jpg" width="200" height="200"></div>
-        <div class="ovella"> <img src="../../imatges/oveja.svg" width="100" height="100"></div>
+    <div class="unio">
+        <div class="fons"> <img src="../../imatges/wall.jpg"></div>
+        <div class="terra"> <img src="../../imatges/floor.jpg"></div>
+        <div class="ovella"> <img src="../../imatges/oveja.svg"></div>
+        <div class="ombra"> <img src="../../imatges/oveja.svg"></div>
     </div>
    </body>
 </html>
