@@ -77,10 +77,9 @@ footer{
     }
 
 header ul li a{
-        background-color: rgb(187, 171, 140);
-        color:black;
-        padding: 10px;
-        text-align: center;
+        background-color: rgb(187, 171, 140);;
+        color: black;
+        padding: 10px ;
         margin: 5px;
         cursor: pointer;
         border: 5px;
@@ -89,6 +88,6 @@ header ul li a{
     }
     
 header ul li a:hover{
-        color: black;
-        background-color:  rgb(222, 208, 182);
+        background-color: rgb(222, 208, 182);
+        color:black;
     }
