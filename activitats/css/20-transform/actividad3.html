@@ -12,23 +12,30 @@
             text-align: center;
         }
 
-        .contenedor{
+        main{
             display: flex;
         }
 
-        .cercle {
-            width: 100px;
-            height: 100px;
+        .cercle_roig{
             border-radius: 50%;
-           
-        }
-
-        .roig {
+            margin-left: 20rem;
+            width: 10rem;
+            height: 10rem;
             background-color: red;
         }
 
-        .blau {
+        .cercle_blau{
+            display: inline-grid;
+            border-radius: 50%;
+            margin-left: 5rem;
+            width: 10rem;
+            height: 10rem;
             background-color: blue;
+            opacity: 0.5;
+        }
+
+        .cercle_blau:hover{
+            transform: translateX(-150px);
         }
 
     </style>
@@ -37,9 +44,9 @@
     <h3>20-Transform: Activitat 3</h3>
     <br>
     <br>
-    <div class="contenedor">
-        <div class="cercle roig"></div>
-     <div class="cercle blau"></div>
-    </div>
+    <main>
+        <div class="cercle_roig"></div>
+        <div class="cercle_blau"></div>
+    </main>
 </body>
 </html>
