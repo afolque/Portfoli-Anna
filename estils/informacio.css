@@ -75,3 +75,20 @@ table, th, td {
 display: grid;
 grid-template-columns: 60% 40%;
 }
+
+header ul li a{
+    background-color: rgb(187, 171, 140);
+    color:black;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    border: 5px;
+    border-color: black;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: black;
+    background-color:  rgb(222, 208, 182);
+}
