@@ -6,19 +6,19 @@
 
         <item>
             <title>Revolt a les Xarxes Socials pel Nou Algoritme d'Instagram</title>
-            <link></link>
+            <content url="../Portfoli-Anna/imatges/anna.jpg" type="image/jpeg" medium="image"/>
             <description>Usuaris d'Instagram estan en peu de guerra després del llançament d'un nou algoritme que reorganitza el feed de notícies. Molts es queixen que les publicacions dels seus amics i familiars han estat relegades en favor de contingut patrocinat, generant una onada de crítiques cap a la plataforma.</description>
         </item>
 
         <item>
             <title>Desenvolupen Programari Revolucionari per Detectar 'Deepfakes' en Temps Real</title>
-            <link></link>
+            <content url="../Portfoli-Anna/imatges/anna.jpg" type="image/jpeg" medium="image"/>
             <description>Un equip d'investigadors ha creat un programari pioner capaç d'identificar deepfakes amb una precisió sense precedents. Aquesta eina promet lluitar contra la desinformació en línia en detectar vídeos i imatges manipulades en temps real, oferint una nova defensa contra la propagació de notícies falses.</description>
         </item>
 
         <item>
             <title>Ciberatac Massiu Paralitza Serveis de Núvol a Tot el Món</title>
-            <link></link>
+            <content url="../Portfoli-Anna/imatges/anna.jpg" type="image/jpeg" medium="image"/>
             <description>Empreses i usuaris de tot el món s'enfronten a interrupcions significatives després que un ciberatac massiu colpegi diversos proveïdors de serveis a la núvol. Els experts en seguretat informàtica lluiten per contenir l'atac, mentre milions de persones es veuen afectades per la caiguda de serveis en línia.</description>
         </item>
     </channel>

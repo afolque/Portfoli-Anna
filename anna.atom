@@ -3,10 +3,31 @@
 
     <title>Atom Anna Folqué Clua</title>
     <link href="https://afolque.github.io/Portfoli-Anna/"/>
-    <updated>2024-02-15T18:33</updated>
+    <updated>2024-02-15T18:33:10Z</updated>
     <author>
         <name>Anna Folqué Clua</name>
     </author>
     
+
+    <entry>
+        <title>Revolt a les Xarxes Socials pel Nou Algoritme d'Instagram</title>
+        <link/>
+        <updated>2024-02-15T18:45:25Z</updated>
+        <summary>Usuaris d'Instagram estan en peu de guerra després del llançament d'un nou algoritme que reorganitza el feed de notícies. Molts es queixen que les publicacions dels seus amics i familiars han estat relegades en favor de contingut patrocinat, generant una onada de crítiques cap a la plataforma.</summary>
+    </entry>
+
+    <entry>
+        <title>Desenvolupen Programari Revolucionari per Detectar 'Deepfakes' en Temps Real</title>
+        <link/>
+        <updated>2024-02-15T18:50:30Z</updated>
+        <summary>Un equip d'investigadors ha creat un programari pioner capaç d'identificar deepfakes amb una precisió sense precedents. Aquesta eina promet lluitar contra la desinformació en línia en detectar vídeos i imatges manipulades en temps real, oferint una nova defensa contra la propagació de notícies falses.</summary>
+    </entry>
+
+    <entry>
+        <title>Ciberatac Massiu Paralitza Serveis de Núvol a Tot el Món</title>
+        <link/>
+        <updated>2024-02-15T19:05:25Z</updated>
+        <summary>Empreses i usuaris de tot el món s'enfronten a interrupcions significatives després que un ciberatac massiu colpegi diversos proveïdors de serveis a la núvol. Els experts en seguretat informàtica lluiten per contenir l'atac, mentre milions de persones es veuen afectades per la caiguda de serveis en línia.</summary>
+    </entry>
 
 </feed>
